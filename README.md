@@ -38,7 +38,7 @@ Execute gradle on a shell.
 
 ```
 $ git clone https://github.com/toduq/lettuce-v6-performance-test.git
-$ ./gradlew bootRun --args='redis.servers=redis://192.0.2.1,redis://192.0.2.2,redis://192.0.2.3'
+$ ./gradlew bootRun --args='redis.nodes=redis://192.0.2.1,redis://192.0.2.2,redis://192.0.2.3'
 ```
 
 Execute ab on the other shell. (No warm up runs for JVM, etc...)
